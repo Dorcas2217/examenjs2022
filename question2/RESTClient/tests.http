@@ -1,0 +1,35 @@
+
+@baseUrl = http://localhost:3000
+
+
+### Create a place
+# @name lieu
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "name": "Portugal",
+    "description":"Portugal"
+}
+
+### Create a user
+# @name user
+POST {{baseUrl}}/addUser
+Content-Type: application/json
+
+{
+    "name": "chemin",
+    "email":"chemin@vinci.be"
+    
+}
+
+### Like a place
+POST {{baseUrl}}/addfav
+Content-Type: application/json
+
+{
+    "idL" : "b1e6038e-0e64-4b7c-8efe-0ef063b18872",
+    "idU" : "2d2322fd-2d81-4837-ba1e-c1a02ffea8fe"
+    
+}
+

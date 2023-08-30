@@ -1,0 +1,6 @@
+@baseUrl = http://localhost:3000
+
+### Read all users
+GET {{baseUrl}}/users
+
+### add one user 
